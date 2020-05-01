@@ -59,7 +59,6 @@ class BurgerBuilder extends Component{
         }
         return(
             <div>
-                <Burger ingredients={this.state.ingredients}/>
                 <Modal
                     backDropClick={this.purchasingHandler}
                     show={this.state.purchasing}>
@@ -69,6 +68,7 @@ class BurgerBuilder extends Component{
                         price={this.state.totalPrice}
                         summary={this.state.ingredients}/>
                 </Modal>
+                <Burger ingredients={this.state.ingredients}/>
                 <BuildControls
                     add={this.addIngredientHandler}
                     remove={this.removeIngredientHandler}

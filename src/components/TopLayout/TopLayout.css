@@ -1,7 +1,6 @@
 .Content {
-    margin-top: 16px;
 }
 
 .SideDrawButton {
-    z-index: 1000;
+    z-index: 500;
 }

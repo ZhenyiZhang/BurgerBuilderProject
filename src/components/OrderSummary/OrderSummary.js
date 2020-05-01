@@ -30,7 +30,9 @@ class OrderSummary extends Component {
             phone: this.state.phone,
             name: this.state.name,
             items: this.props.summary,
-            timeOrdered: Date.now()};
+            timeOrdered: Date.now(),
+            price: this.props.price
+        };
         instance.post('/order/', order)
             .then((response) => {
                 alert('Your order number is: ' + response.data.orderNumber);})

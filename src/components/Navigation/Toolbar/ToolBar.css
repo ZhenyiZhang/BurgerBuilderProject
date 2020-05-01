@@ -4,7 +4,7 @@
     left: 0;
     top: 0;
     position: fixed;
-    background-color: #304269;
+    background-color: #5CC4C0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,8 +17,8 @@
 }
 
 .sideDrawerButton {
-    background-color: #304269;
-    border-color: #304269;
+    background-color: #5CC4C0;
+    border-color: #5CC4C0;
     border-style: solid;
 }
 
