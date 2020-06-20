@@ -15,6 +15,5 @@ monitoring client
 11. npm install
 12. npm start
 
-
-
-
+### `Demo`
+<img src='./images/Jun-19-2020 17-52-43.gif'/> 
